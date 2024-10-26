@@ -1,0 +1,508 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    font-family: "Josefin Sans", sans-serif;
+    height: 100px;
+    display: flex;
+    gap: 30em;
+    margin: 10px;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header .logo img{
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.logo h1 {
+    font-size: 35px;
+}
+
+.header .side {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.side a{
+    width: 75px;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.side a:hover{
+    height: 60px; 
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: black;
+    box-shadow: 0 8px 15px 0 rgb(173, 173, 175);
+    transition: 0.3s;
+}
+
+.side button{
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgba(217, 217, 217, 0);
+    border: 3px solid black;
+    border-radius: 7px;
+    box-shadow: 0 7px 15px 0 rgb(173, 173, 175);
+}
+
+.side button:hover{
+    background-color: black;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.navigating {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+}
+
+.navigating .text {
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 70px;
+    margin-left: 90px;
+    height: 200px;
+    width: 500px;
+}
+
+.text h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.text p {
+    line-height: 35px;
+    letter-spacing: 0.7px;
+    font-size: 22px;
+}
+
+.text button {
+    width: 200px;
+    font-size: 15px;
+    padding: 13px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 15px;
+    letter-spacing: 1.3px;
+    box-shadow: 0 7px 15px 0 rgb(173, 173, 175);
+}
+
+.navigating .image_1 img {
+    height: 515px;
+    width: 601px;
+}
+
+
+.icons {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5em;
+}
+
+.services {
+    height: 250px;
+    width: 800px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7em;
+
+}
+
+.services button {
+    padding: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: rgba(173, 255, 47, 1);
+    border: none;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.services p {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.four_boxes {
+    margin-left: 190px;
+    height: 600px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12em;
+    row-gap: 4em;
+}
+
+.search_engine_optimization {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 236, 236);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px 0 rgb(173, 173, 175);
+    gap: 3em;
+}
+
+
+.text_seo p {
+    width: 130px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: rgba(173, 255, 47, 1);
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.text_seo img {
+    height: 23px;
+    width: 23px;
+}
+
+.text_seo .learn_more {
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.icon_seo img {
+    height: 100px;
+}
+
+.pay_per_click {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px 0 rgb(173, 173, 175);
+    gap: 3em
+}
+
+.pay_per_click p {
+    color: black;
+    width: 130px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: rgba(216, 216, 222, 1);
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 50px;
+}
+
+.pay_per_click .learn_more {
+    font-family: "Josefin Sans", sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.pay_per_click .learn_more img {
+    height: 23px;
+    width: 23px;
+}
+
+.icon_pay_per_click img {
+    height: 120px;
+    width: 120px;
+}
+
+
+.social_media_marketing {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px 0 rgb(173, 173, 175);
+    gap: 3em
+}
+
+.social_media_marketing p {
+    color: black;
+    width: 130px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: rgba(216, 216, 222, 1);
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 50px;
+}
+
+.social_media_marketing .learn_more {
+    font-family: "Josefin Sans", sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.social_media_marketing .learn_more img {
+    height: 23px;
+    width: 23px;
+}
+
+.icon_social_media_marketing img {
+    height: 90px;
+    width: 90px;
+
+}
+
+
+.email_marketing {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px 0 rgb(173, 173, 175);
+    gap: 3em;
+}
+
+.email_marketing p {
+    width: 130px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: rgba(173, 255, 47, 1);
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.email_marketing .learn_more {
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.email_marketing .learn_more img {
+    height: 23px;
+    width: 23px;
+}
+
+.icon_email_marketing img {
+    height: 125px;
+    width: 130px;
+}
+
+
+.lets_make_things_happen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 500px;
+}
+
+.box_lets_make_things_happen {
+    border-radius: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    background-color: rgba(217, 217, 217, 1);
+    gap: 9em;
+}
+
+.text_lets_make_things_happen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    width: 400px;
+
+}
+
+.text_lets_make_things_happen h2 {
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.text_lets_make_things_happen button {
+    margin-top: 15px;
+    width: 200px;
+    font-size: 12px;
+    padding: 12px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 12px;
+    letter-spacing: 1.3px;
+}
+
+.icon_lets_make_things_happen img {
+    height: 300px;
+    width: 300px;
+}
+
+.case_study {
+    height: 250px;
+    width: 800px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7em;
+}
+
+.case_study button {
+    width: 290px;
+    padding: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: rgba(173, 255, 47, 1);
+    border: none;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.case_study p {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.footer_box {
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    font-family: "Josefin Sans", sans-serif;
+    row-gap: 2em;
+}
+
+.footer_box img {
+
+    margin: 22px;
+}
+
+.footer_box .learn_more p{
+    color: rgba(173, 255, 47, 1);
+}
+
+.footer_box .text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    margin: 15px;
+}
+
+.text1 .learn_more {
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.text1 img {
+    height: 23px;
+    width: 23px;
+}
+
+.footer_box .text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    margin: 15px;
+}
+
+.text2 .learn_more {
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    align-items: center;
+
+}
+
+.text2 img {
+    height: 23px;
+    width: 23px;
+}
+
+.footer_box .text3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    margin: 15px;
+}
+
+.text3 .learn_more {
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    align-items: center;
+
+}
+
+.text3 img {
+    height: 23px;
+    width: 23px;
+}
+
